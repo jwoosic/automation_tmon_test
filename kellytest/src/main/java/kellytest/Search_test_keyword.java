@@ -22,7 +22,7 @@ public class Search_test_keyword {
    public static DesiredCapabilities capabilities = new DesiredCapabilities();
     public static final String TMON_ID = "woosikjeon001";
     public static final String TMON_PW = "tmon123!";
-    public static final String TMON_WrongPW = "tmn3!";
+    public static final String TMON_WrongPW = "tmn13!";
     
     static AndroidDriver<MobileElement> wd;
 
