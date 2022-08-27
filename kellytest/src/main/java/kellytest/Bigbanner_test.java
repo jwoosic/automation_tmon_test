@@ -16,7 +16,6 @@ import io.appium.java_client.android.AndroidElement;
 
 
 
-
 public class Bigbanner_test {
    public static AppiumDriver<AndroidElement> driver;
    public static DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -53,15 +52,15 @@ public class Bigbanner_test {
    
     //빅배너 노출 체크
     private static void bigbannerCheck() {
-        driver.findElement(By.id("com.tmon.working:id/com.tmon.working:id/imageview")).click();
+        driver.findElement(By.id("com.tmon:id/com.tmon.working:id/imageview")).click();
         System.out.println("빅배너 노출 확인");
     }
      
  
     //빅배너 더보기 진입
     private static void bigbannerDetail() {
-        driver.findElement(By.id("com.tmon.working:id/container_go_banner_detail")).click();
-        System.out.println("검색 키워드 입력 성공");
+        driver.findElement(By.id("com.tmon:id/container_go_banner_detail")).click();
+        System.out.println("빅배너 더보기 진입");
     }
      
     //첫 번째 빅배너 진입
