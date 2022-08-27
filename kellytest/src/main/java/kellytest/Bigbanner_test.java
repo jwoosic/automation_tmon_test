@@ -87,8 +87,6 @@ public class Bigbanner_test {
         Assert.assertNotNull(result);
         System.out.println("빅배너 진입 확인");
     }  
-    
-    //테스트 다시 ..
    
    @AfterClass
    public void end() throws Exception {
