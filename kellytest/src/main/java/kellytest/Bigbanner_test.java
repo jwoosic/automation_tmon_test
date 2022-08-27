@@ -52,7 +52,7 @@ public class Bigbanner_test {
    
     //빅배너 노출 체크
     private static void bigbannerCheck() {
-        driver.findElement(By.id("com.tmon:id/com.tmon.working:id/imageview")).click();
+        driver.findElement(By.id("com.tmon:id/com.tmon:id/imageview")).click();
         System.out.println("빅배너 노출 확인");
     }
      
