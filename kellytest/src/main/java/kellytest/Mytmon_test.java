@@ -19,9 +19,9 @@ import io.appium.java_client.android.AndroidElement;
 public class Mytmon_test {
    public static AppiumDriver<AndroidElement> driver;
    public static DesiredCapabilities capabilities = new DesiredCapabilities();
-    public static final String TMON_ID = "fhwm21";
-    public static final String TMON_PW = "abc123";
-    public static final String TMON_WrongPW = "tmn123!";
+    public static final String TMON_ID = "woosikjeon001";
+    public static final String TMON_PW = "tmon123!";
+    public static final String TMON_WrongPW = "tmn3!";
     
     static AndroidDriver<MobileElement> wd;
 
@@ -30,7 +30,7 @@ public class Mytmon_test {
        capabilities.setCapability("appium-version", "{1.18.2}");
        capabilities.setCapability("automationName", "UiAutomator2");
        //aapt 명령어를 통해 입력 할 예정(테스트 할 앱의 패키지 명)
-      capabilities.setCapability("appPackage", "com.tmon");
+      capabilities.setCapability("appPackage", "com.tmon.working");
    
         //aapt 명령어를 통해 입력 할 예정(테스트 할 앱의 launchable-activity 정보)
       capabilities.setCapability("appActivity", "com.tmon.splash.SplashActivity"); 
@@ -39,7 +39,7 @@ public class Mytmon_test {
       capabilities.setCapability("deviceName", "unauthorized");
         
         //adb 명령어를 통해 입력 할 예정(자기 디바이스의 udid)
-      capabilities.setCapability("udid", "18281FDF60053U");
+      capabilities.setCapability("udid", "R3CMB0NH2XY");
         
         // 키보드
       capabilities.setCapability("unicodeKeyboard", true);
