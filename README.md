@@ -1,1 +1,1 @@
-# automation_tmon_test
+# 자동화 테스트 스터디
