@@ -76,7 +76,6 @@ public class Bigbanner_test {
     // 빅배너 노출 여부 확인
     public void bigbanner_test_001() throws Exception {
     	bigbannerCheck();
-        System.out.println("빅배너 노출 확인");
     }  
      
     @Test
