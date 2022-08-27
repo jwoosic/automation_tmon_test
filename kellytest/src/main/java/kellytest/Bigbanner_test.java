@@ -52,7 +52,7 @@ public class Bigbanner_test {
    
     //빅배너 노출 체크
     private static void bigbannerCheck() {
-        driver.findElement(By.xpath("//android.widget.ImageView[@NAF='[true]'")).click();
+        driver.findElement(By.xpath("//android.widget.ImageView[@NAF='[true]'")).isDisplayed();
         System.out.println("빅배너 노출 확인");
     }
      
