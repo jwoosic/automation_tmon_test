@@ -53,7 +53,7 @@ public class Bigbanner_test {
     //빅배너 노출 체크
     private static void bigbannerCheck() {
         //driver.findElement(By.xpath("//android.widget.ImageView[@NAF='[true]'")).isDisplayed();
-        driver.findElementByAccessibilityId("//android.widget.ImageView[@NAF='[true]'").isDisplayed();
+        driver.findElementByAccessibilityId("//android.widget.FrameLayout[@index='[1]'").isDisplayed();
         System.out.println("빅배너 노출 확인");
     }
      

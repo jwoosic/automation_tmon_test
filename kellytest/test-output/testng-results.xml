@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-27T23:03:34 KST" name="Default suite" finished-at="2022-08-27T23:03:52 KST" duration-ms="17860">
+  <suite started-at="2022-08-27T23:06:02 KST" name="Default suite" finished-at="2022-08-27T23:06:24 KST" duration-ms="22806">
     <groups>
     </groups>
-    <test started-at="2022-08-27T23:03:34 KST" name="Default test" finished-at="2022-08-27T23:03:52 KST" duration-ms="17860">
+    <test started-at="2022-08-27T23:06:02 KST" name="Default test" finished-at="2022-08-27T23:06:24 KST" duration-ms="22806">
       <class name="kellytest.Bigbanner_test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T23:03:34 KST" name="setUp" finished-at="2022-08-27T23:03:42 KST" duration-ms="7609" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T23:06:02 KST" name="setUp" finished-at="2022-08-27T23:06:09 KST" duration-ms="7741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="bigbanner_test_001()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T23:03:42 KST" name="bigbanner_test_001" finished-at="2022-08-27T23:03:42 KST" duration-ms="636" status="FAIL">
-          <exception class="org.openqa.selenium.InvalidSelectorException">
+        <test-method signature="bigbanner_test_001()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T23:06:09 KST" name="bigbanner_test_001" finished-at="2022-08-27T23:06:20 KST" duration-ms="10383" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 41: 
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'WSDESKTOP', ip: '10.1.84.181', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.tmon.splash.SplashActivity, appPackage: com.tmon, appium-version: {1.18.2}, autoDismissAlerts: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.tmon.splash.SplashActivity, appPackage: com.tmon, appium-version: {1.18.2}, autoDismissAlerts: true, automationName: UiAutomator2, deviceName: unauthorized, noReset: true, platformName: android, resetKeyboard: true, udid: R3CMB0NH2XY, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-N971N, deviceName: R3CMB0NH2XY, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R3CMB0NH2XY, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 90, takesScreenshot: true, udid: R3CMB0NH2XY, unicodeKeyboard: true, viewportRect: {height: 1974, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 80362e53-d1f5-4af0-af95-7901a8520ba1
-*** Element info: {Using=xpath, value=//android.widget.ImageView[@NAF='[true]'}]]>
+Session ID: f9ece92c-1fa7-4287-9abc-52f290e22270
+*** Element info: {Using=accessibility id, value=//android.widget.ImageView[@NAF='[true]'}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidSelectorException: org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 41: 
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'WSDESKTOP', ip: '10.1.84.181', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.tmon.splash.SplashActivity, appPackage: com.tmon, appium-version: {1.18.2}, autoDismissAlerts: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.tmon.splash.SplashActivity, appPackage: com.tmon, appium-version: {1.18.2}, autoDismissAlerts: true, automationName: UiAutomator2, deviceName: unauthorized, noReset: true, platformName: android, resetKeyboard: true, udid: R3CMB0NH2XY, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-N971N, deviceName: R3CMB0NH2XY, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R3CMB0NH2XY, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 90, takesScreenshot: true, udid: R3CMB0NH2XY, unicodeKeyboard: true, viewportRect: {height: 1974, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 80362e53-d1f5-4af0-af95-7901a8520ba1
-*** Element info: {Using=xpath, value=//android.widget.ImageView[@NAF='[true]'}
+Session ID: f9ece92c-1fa7-4287-9abc-52f290e22270
+*** Element info: {Using=accessibility id, value=//android.widget.ImageView[@NAF='[true]'}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -49,17 +49,9 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
 at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
 at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at kellytest.Bigbanner_test.bigbannerCheck(Bigbanner_test.java:55)
-at kellytest.Bigbanner_test.bigbanner_test_001(Bigbanner_test.java:75)
+at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+at kellytest.Bigbanner_test.bigbannerCheck(Bigbanner_test.java:56)
+at kellytest.Bigbanner_test.bigbanner_test_001(Bigbanner_test.java:76)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,15 +82,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bigbanner_test_001 -->
-        <test-method signature="bigbanner_test_002()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T23:03:42 KST" name="bigbanner_test_002" finished-at="2022-08-27T23:03:51 KST" duration-ms="8878" status="PASS">
+        <test-method signature="bigbanner_test_002()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T23:06:20 KST" name="bigbanner_test_002" finished-at="2022-08-27T23:06:24 KST" duration-ms="3881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bigbanner_test_002 -->
-        <test-method is-config="true" signature="end()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T23:03:51 KST" name="end" finished-at="2022-08-27T23:03:52 KST" duration-ms="694" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T23:06:24 KST" name="end" finished-at="2022-08-27T23:06:24 KST" duration-ms="758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
