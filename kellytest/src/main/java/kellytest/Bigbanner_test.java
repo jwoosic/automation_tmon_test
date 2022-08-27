@@ -86,9 +86,7 @@ public class Bigbanner_test {
         String result = driver.findElement(By.xpath("//android.widget.TextView")).getText();
         Assert.assertNotNull(result);
         System.out.println("빅배너 진입 확인");
-    }  
-    
-    //테스트 ~
+    } 
    
    @AfterClass
    public void end() throws Exception {
