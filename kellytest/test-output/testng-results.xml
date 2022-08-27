@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-27T22:57:44 KST" name="Default suite" finished-at="2022-08-27T22:58:01 KST" duration-ms="17461">
+  <suite started-at="2022-08-27T23:03:34 KST" name="Default suite" finished-at="2022-08-27T23:03:52 KST" duration-ms="17860">
     <groups>
     </groups>
-    <test started-at="2022-08-27T22:57:44 KST" name="Default test" finished-at="2022-08-27T22:58:01 KST" duration-ms="17461">
+    <test started-at="2022-08-27T23:03:34 KST" name="Default test" finished-at="2022-08-27T23:03:52 KST" duration-ms="17860">
       <class name="kellytest.Bigbanner_test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T22:57:44 KST" name="setUp" finished-at="2022-08-27T22:57:51 KST" duration-ms="7783" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T23:03:34 KST" name="setUp" finished-at="2022-08-27T23:03:42 KST" duration-ms="7609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="bigbanner_test_001()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T22:57:51 KST" name="bigbanner_test_001" finished-at="2022-08-27T22:57:52 KST" duration-ms="597" status="FAIL">
+        <test-method signature="bigbanner_test_001()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T23:03:42 KST" name="bigbanner_test_001" finished-at="2022-08-27T23:03:42 KST" duration-ms="636" status="FAIL">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
               <![CDATA[org.eclipse.wst.xml.xpath2.processor.XPathParserException: CUP parser error: Parser error: line 1 col 41: 
@@ -20,7 +20,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'WSDESKTOP', ip: '10.1.84.181', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.tmon.splash.SplashActivity, appPackage: com.tmon, appium-version: {1.18.2}, autoDismissAlerts: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.tmon.splash.SplashActivity, appPackage: com.tmon, appium-version: {1.18.2}, autoDismissAlerts: true, automationName: UiAutomator2, deviceName: unauthorized, noReset: true, platformName: android, resetKeyboard: true, udid: R3CMB0NH2XY, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-N971N, deviceName: R3CMB0NH2XY, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R3CMB0NH2XY, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 90, takesScreenshot: true, udid: R3CMB0NH2XY, unicodeKeyboard: true, viewportRect: {height: 1974, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: c8d2bd13-7635-4691-9514-bbc58bcc2fa2
+Session ID: 80362e53-d1f5-4af0-af95-7901a8520ba1
 *** Element info: {Using=xpath, value=//android.widget.ImageView[@NAF='[true]'}]]>
             </message>
             <full-stacktrace>
@@ -30,7 +30,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'WSDESKTOP', ip: '10.1.84.181', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {appActivity: com.tmon.splash.SplashActivity, appPackage: com.tmon, appium-version: {1.18.2}, autoDismissAlerts: true, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.tmon.splash.SplashActivity, appPackage: com.tmon, appium-version: {1.18.2}, autoDismissAlerts: true, automationName: UiAutomator2, deviceName: unauthorized, noReset: true, platformName: android, resetKeyboard: true, udid: R3CMB0NH2XY, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-N971N, deviceName: R3CMB0NH2XY, deviceScreenDensity: 420, deviceScreenSize: 1080x2280, deviceUDID: R3CMB0NH2XY, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 90, takesScreenshot: true, udid: R3CMB0NH2XY, unicodeKeyboard: true, viewportRect: {height: 1974, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: c8d2bd13-7635-4691-9514-bbc58bcc2fa2
+Session ID: 80362e53-d1f5-4af0-af95-7901a8520ba1
 *** Element info: {Using=xpath, value=//android.widget.ImageView[@NAF='[true]'}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -94,11 +94,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bigbanner_test_001 -->
-        <test-method signature="bigbanner_test_002()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T22:57:52 KST" name="bigbanner_test_002" finished-at="2022-08-27T22:58:00 KST" duration-ms="8268" status="PASS">
+        <test-method signature="bigbanner_test_002()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T23:03:42 KST" name="bigbanner_test_002" finished-at="2022-08-27T23:03:51 KST" duration-ms="8878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bigbanner_test_002 -->
-        <test-method is-config="true" signature="end()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T22:58:00 KST" name="end" finished-at="2022-08-27T22:58:01 KST" duration-ms="764" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:kellytest.Bigbanner_test@7b36aa0c]" started-at="2022-08-27T23:03:51 KST" name="end" finished-at="2022-08-27T23:03:52 KST" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
